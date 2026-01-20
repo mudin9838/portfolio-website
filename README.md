@@ -1,73 +1,52 @@
-# React + TypeScript + Vite
+# 🚀 Portfolio Website --- React \| Azure
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my **personal portfolio website**, built with
+**React** and deployed on **Microsoft Azure Static Web Apps**.\
+It showcases my professional experience, technical skill set, and
+selected projects with a strong focus on **clean architecture,
+performance, and production readiness**.
 
-Currently, two official plugins are available:
+## 🌐 Live Application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 **Azure Deployment:**\
+https://calm-island-08df4b210.6.azurestaticapps.net/
 
-## React Compiler
+## 🧠 Key Highlights
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   Modern, responsive UI built with React
+-   Clean, maintainable, component-based architecture
+-   Optimized production build
+-   Deployed using Azure Static Web Apps
+-   Real-world project structure suitable for scaling
 
-## Expanding the ESLint configuration
+## 🧩 Technology Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-   **Frontend:** React, JavaScript (ES6+)
+-   **Styling:** HTML5, CSS3 (modern layout techniques)
+-   **Build Tooling:** Vite / Create React App
+-   **Cloud Hosting:** Azure Static Web Apps
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📁 What This Project Demonstrates
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+-   Practical React development experience
+-   Understanding of Azure cloud deployment
+-   Production-focused mindset (performance, structure, maintainability)
+-   Ability to design, deploy, and maintain a live web application
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Local Development
+
+``` bash
+git clone https://github.com/mudin9838/portfolio-website.git
+cd  portfolio-website
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📌 Notes for Recruiters
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+This project reflects how I approach real-world software development:\
+**clear structure, clean code, and production deployment**.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+It complements my backend experience with **.NET, cloud-native systems,
+and CI/CD pipelines**, demonstrating full-stack awareness and practical
+delivery skills.

@@ -1,57 +1,60 @@
 export default function Articles() {
-    return (
-      <section className="space-y-6">
-        <h1 className="text-3xl font-bold">Articles</h1>
-  
-        <ul className="space-y-4">
-          <li>
-            <a
-              href="https://www.linkedin.com/feed/update/urn:li:activity:7418228566670131200/"
-              target="_blank"
-              className="underline underline-offset-4"
-            >
-            𝐎𝐧𝐞 𝐄𝐅 𝐂𝐨𝐫𝐞 𝐭𝐢𝐩 𝐭𝐡𝐚𝐭 𝐢𝐧𝐬𝐭𝐚𝐧𝐭𝐥𝐲 𝐢𝐦𝐩𝐫𝐨𝐯𝐞𝐬 𝐩𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞
-            </a>
-          </li>
-  
-          <li>
-            <a
-              href="https://www.linkedin.com/feed/update/urn:li:activity:7418228566670131200/?originTrackingId=d0hizZHHf6YiEdWJCh%2FaiA%3D%3D"
-              target="_blank"
-              className="underline underline-offset-4"
-            >
-              𝐎𝐧𝐞 𝐄𝐅 𝐂𝐨𝐫𝐞 𝐭𝐢𝐩 𝐭𝐡𝐚𝐭 𝐢𝐧𝐬𝐭𝐚𝐧𝐭𝐥𝐲 𝐢𝐦𝐩𝐫𝐨𝐯𝐞𝐬 𝐩𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/posts/muhdin-mussema-5b46b0208_dotnet-aspnetcore-cleanarchitecture-activity-7416410098509496321-_rbV?utm_source=share&utm_medium=member_desktop&rcm=ACoAADTIxlgBmHU9NMNPd6Ee6fOoGai-9_mqsI8"
-              target="_blank"
-              className="underline underline-offset-4"
-            >
-             𝗖𝗼𝗻𝘁𝗿𝗼𝗹𝗹𝗲𝗿𝘀 𝗮𝗿𝗲 𝗻𝗼𝘁 𝘁𝗵𝗲 𝗽𝗹𝗮𝗰𝗲 𝗳𝗼𝗿 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝘀
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/posts/muhdin-mussema-5b46b0208_dotnet-aspnetcore-fluentvalidation-activity-7408739910112714754-eU3N?utm_source=share&utm_medium=member_desktop&rcm=ACoAADTIxlgBmHU9NMNPd6Ee6fOoGai-9_mqsI8"
-              target="_blank"
-              className="underline underline-offset-4"
-            >
-           𝗙𝗹𝘂𝗲𝗻𝘁𝗩𝗮𝗹𝗶𝗱𝗮𝘁𝗶𝗼𝗻: 𝗞𝗲𝗲𝗽𝗶𝗻𝗴 𝘃𝗮𝗹𝗶𝗱𝗮𝘁𝗶𝗼𝗻 𝗼𝘂𝘁 𝗼𝗳 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗹𝗲𝗿𝘀
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/posts/muhdin-mussema-5b46b0208_dotnet-aspnetcore-nuget-activity-7407368544985759745-RzSq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADTIxlgBmHU9NMNPd6Ee6fOoGai-9_mqsI8"
-              target="_blank"
-              className="underline underline-offset-4"
-            >
-          𝐒𝐜𝐫𝐮𝐭𝐨𝐫: 𝐚 𝐬𝐦𝐚𝐥𝐥 𝐍𝐮𝐆𝐞𝐭 𝐩𝐚𝐜𝐤𝐚𝐠𝐞 𝐭𝐡𝐚𝐭 𝐜𝐥𝐞𝐚𝐧𝐞𝐝 𝐮𝐩 𝐦𝐲 𝐀𝐒𝐏.𝐍𝐄𝐓 𝐂𝐨𝐫𝐞 𝐃𝐈
-            </a>
-          </li>
-        </ul>
-      </section>
-    );
-  }
-  
+  const articles = [
+    {
+      title: "One EF Core tip that instantly improves performance",
+      description:
+        "A practical EF Core performance tip explaining why projections outperform Include().",
+      platform: "LinkedIn",
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:7418228566670131200/",
+    },
+    {
+      title: "Controllers are not the place for decisions",
+      description:
+        "Why business logic does not belong in controllers and how to structure clean ASP.NET Core applications.",
+      platform: "LinkedIn",
+      link: "https://www.linkedin.com/posts/muhdin-mussema-5b46b0208_dotnet-aspnetcore-cleanarchitecture-activity-7416410098509496321-_rbV",
+    },
+    {
+      title: "FluentValidation: Keeping validation out of controllers",
+      description:
+        "How FluentValidation improves separation of concerns in ASP.NET Core.",
+      platform: "LinkedIn",
+      link: "https://www.linkedin.com/posts/muhdin-mussema-5b46b0208_dotnet-aspnetcore-fluentvalidation-activity-7408739910112714754-eU3N",
+    },
+    {
+      title: "Scrutor: a small NuGet package that cleaned up my ASP.NET Core DI",
+      description:
+        "Using Scrutor to simplify dependency injection registration in ASP.NET Core.",
+      platform: "LinkedIn",
+      link: "https://www.linkedin.com/posts/muhdin-mussema-5b46b0208_dotnet-aspnetcore-nuget-activity-7407368544985759745-RzSq",
+    },
+  ];
+
+  return (
+    <section className="space-y-8">
+      <h1 className="text-3xl font-bold">Articles</h1>
+
+      <div className="space-y-6">
+        {articles.map((article) => (
+          <a
+            key={article.link}
+            href={article.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block border border-zinc-200 dark:border-zinc-800 rounded-lg p-5 hover:bg-zinc-50 dark:hover:bg-zinc-900 transition"
+          >
+            <h3 className="text-lg font-semibold">{article.title}</h3>
+
+            <p className="mt-1 text-zinc-600 dark:text-zinc-400">
+              {article.description}
+            </p>
+
+            <span className="mt-2 inline-block text-sm font-medium underline">
+              Read on {article.platform} →
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+  );
+}

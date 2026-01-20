@@ -32,7 +32,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/muhdin-mussema-5b46b0208/"
             target="_blank"
             className="px-6 py-3 border border-zinc-300 dark:border-zinc-700 rounded font-medium"
           >
