@@ -8,6 +8,13 @@ export default function Articles() {
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7418228566670131200/",
     },
     {
+      title: "Boost Performance with Bulk Operations",
+      description:
+        "When working with large datasets in EF Core, performing operations like inserts, updates, and deletes one record at a time can severely impact performance.",
+      platform: "LinkedIn",
+      link: "https://www.linkedin.com/posts/muhdin-mussema-5b46b0208_efcore-performanceoptimization-bulkoperations-activity-7420732546667180032-rFIv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADTIxlgBmHU9NMNPd6Ee6fOoGai-9_mqsI8",
+    },
+    {
       title: "Controllers are not the place for decisions",
       description:
         "Why business logic does not belong in controllers and how to structure clean ASP.NET Core applications.",
