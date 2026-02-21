@@ -29,6 +29,13 @@ export default function Articles() {
       link: "https://www.linkedin.com/posts/muhdin-mussema-5b46b0208_dotnet-aspnetcore-cleanarchitecture-activity-7416410098509496321-_rbV",
     },
     {
+      title: "Why Your Service Layer Shouldn’t Return EF Entities",
+      description:
+        "Returning EF entities from your service layer leaks database implementation details and tightly couples your API to your schema—use DTOs instead.",
+      platform: "LinkedIn",
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:7430887632462823424/",
+    },
+    {
       title: "FluentValidation: Keeping validation out of controllers",
       description:
         "How FluentValidation improves separation of concerns in ASP.NET Core.",
