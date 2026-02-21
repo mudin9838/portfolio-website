@@ -8,6 +8,13 @@ export default function Articles() {
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7418228566670131200/",
     },
     {
+      title: "The Hidden Cost of Multiple Enumeration in LINQ (EF Core)",
+      description:
+        "The Hidden Cost of Multiple Enumeration in LINQ (EF Core) refers to the performance issue caused by executing multiple database queries when the same LINQ query is enumerated multiple times, leading to redundant data retrieval and increased load on the database.",
+      platform: "LinkedIn",
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:7426284776589787136/",
+    },
+    {
       title: "Boost Performance with Bulk Operations",
       description:
         "When working with large datasets in EF Core, performing operations like inserts, updates, and deletes one record at a time can severely impact performance.",
